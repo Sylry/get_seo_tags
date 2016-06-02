@@ -53,7 +53,8 @@ if (self == top) {
           rel === 'publisher' ||
           rel === 'author' ||
           rel === 'prev' ||
-          rel === 'next'
+          rel === 'next' ||
+          rel === 'alternate'
         ) &&
         href !== null
       ) {
